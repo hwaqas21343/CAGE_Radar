@@ -63,7 +63,7 @@ Set `USB CDC On Boot` to `Enabled` in the IDE. Sensor C sits on UART0, which is
 normally the serial console, so the console has to move to the S3's native USB. That
 means you upload on one COM port and read the serial monitor on a different one.
 
-## The library needs patching
+## Patching existing library
 
 This uses [rbegamer/HLK-LD2450](https://github.com/rbegamer/HLK-LD2450), which decodes
 coordinates wrongly out of the box. It reads X, Y and speed as two's complement, but
