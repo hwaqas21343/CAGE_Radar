@@ -1,0 +1,23 @@
+# WiFi credentials and other machine-specific settings. Never commit these.
+secrets.h
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Arduino build output
+build/
+*.bin
+*.elf
+*.hex
+
+# Editor / tooling local state
+.claude/
+.vscode/
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
