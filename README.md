@@ -42,6 +42,7 @@ sensor's detections into a shared airframe frame, then merge them into one pictu
 | `board1_udp_radar/` | Single radar over UDP, used during bring-up |
 | `board1_phase2_ld2450_single/` | Single radar, serial output only |
 | `laptop/radar_plot_360.py` | Merged 360 degree scope |
+| `CAGE code v1 (redundant).py` | Early single-sensor scope. Superseded, kept for reference |
 
 ## Wiring, board #1
 
