@@ -66,7 +66,7 @@ means you upload on one COM port and read the serial monitor on a different one.
 ## Patching existing library
 
 This uses [rbegamer/HLK-LD2450](https://github.com/rbegamer/HLK-LD2450), which decodes
-coordinates wrongly out of the box. It reads X, Y and speed as two's complement, but
+coordinates in a way that won't work for this use case. It reads X, Y and speed as two's complement, but
 the sensor sends them as sign-magnitude: bit 15 is the sign, bits 0-14 the magnitude.
 Left alone, a target at +300 mm comes out as -32468 mm.
 
