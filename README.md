@@ -135,4 +135,6 @@ At 24 GHz the wavelength inside PETG is about 7.2 mm. A wall in front of a radar
 wants to be either much thinner than that (1 mm or less) or a multiple of a half
 wave, so around 3.6 mm or 7.2 mm. Odd quarter-wave thicknesses near 1.8 mm and 5.4 mm
 reflect the most and are worth avoiding. Print radar windows solid, since sparse
-infill leaves air gaps that scatter unpredictably.
+infill leaves air gaps that scatter unpredictably. I would not recommend using any
+carbon fibre/ glass fibre based filaments as these will inhibit the accuracy 
+and output of the radars.
