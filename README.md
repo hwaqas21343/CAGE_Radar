@@ -87,7 +87,7 @@ Two smaller things about the same library. Its `valid` flag is set from
 physically plausible instead. And `RadarTarget` is declared inside the class, so it's
 `LD2450::RadarTarget`, not `RadarTarget`.
 
-I would like to add that this would not have been possible without rbegamers contributions
+I would like to add that this would not have been possible without [rbegamer/HLK-LD2450](https://github.com/rbegamer/HLK-LD2450) contributions
 and work and I am in no way critiquing his efforts. I would highly recommend using their
 code for this radar as it is by far the most complete available.
 
